@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #36416A;
+    height: 8vh;
+    width: 100vw;
+    padding: 1vh;
+   
+    box-sizing: border-box;
+    color: #ffff;
+  
+}
+
+.navbar .nav-content{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    /* padding: 1vh; */
+}
+.navbar h4{
+    font-size: larger;
+  margin-top: 1vh;
+}
+.navbar button{
+    margin: 1vh;
+    height: 4vh;
+    width: 6vw;
+    font-size: 2vh;
+    background: none;
+    font-weight: 150;
+    color: #ffff;
+
+}
+.navbar .login{
+    
+    border: none;
+
+}
+.navbar .sign-up{
+    border:  1px solid white;
+
+}

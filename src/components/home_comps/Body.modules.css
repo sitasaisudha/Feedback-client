@@ -1,0 +1,24 @@
+.box{
+    height: 50vh;
+    display: flex;
+    padding: 3vh 3vw;
+    background-color: pink;
+}
+.box img{
+    height: 50vh;
+}
+.box .right-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    padding-left: 4vw;
+    padding-right: 15vw;
+   
+}
+.box .r-box1 h4{
+    font-size: 6vh;
+}
+
+

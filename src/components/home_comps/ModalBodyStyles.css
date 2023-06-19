@@ -1,0 +1,112 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  
+    
+}
+
+.modal-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+    max-height: 70vh;
+    width: 30vw;
+    background-color: #FFFF;
+    box-sizing: border-box;
+    color: #36416A;
+    padding: 2vh;
+
+}
+
+.modal-content-left h4{
+    text-align: left;
+    font-size: 3vh;
+}
+.modal-content-right{
+    height: 70vh;
+    width: 20vw;
+    background-color: #36416A;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2vh 4vh 4vh 5vh;
+    text-align: left;
+
+}
+.modal-content-right h4{
+    font-weight: 500;
+    font-size: 6vh;
+}
+
+.modal-content-right p{
+
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.error-msg{
+    color: red;
+}
+.modal-header , .modal-footer{
+    padding: 1vw;
+}
+
+/* .formic-item .input{
+    border: none;
+    height: 5vh;
+    width: 25vw;
+    background-color: none;
+    background: none;
+    border-bottom: 2px solid #AAAAAA;
+    margin: 1vh;
+
+}
+.formic-item .input:hover{
+    border: none;
+    background-color: none;
+    background: none;
+    border-bottom: 2px solid #AAAAAA;
+}
+.formic-item .input:active{
+    border: none;
+    
+    background-color: none;
+    background: none;
+    border-bottom: 2px solid #AAAAAA;
+}
+
+.form-item .btn{
+  
+} */
+.modal-content-left .formic-container{
+    /* background-color: pink; */
+    border: none;
+    box-shadow: none;
+
+}
+.modal-content-left .formic-container .form-item{
+    /* width: ; */
+    width: 25vw;
+}
+.modal-content-left .formic-container .form-item .btn{
+    margin-left: 15vw;
+}
+.modal-content-left .formic-container .form-item .login-button{
+    border: none;
+    background: none;
+    background-color: none;
+    color: #36416A;
+    font-size: 3vh;
+
+}
