@@ -1,6 +1,6 @@
 .formic-container{
     height: 55vh;
-    width: 40vw;
+   width: 80%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -10,26 +10,64 @@
     padding: 2vh 2vh;
     border-radius: 3vh;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    @media (max-width:700px) {
+       height:50vh;
+       width: 100%;
+       padding: 0;     
+
+}
+}
+.formic-container .form-item p{
+    @media (max-width:700px) {
+       
+        font-size: medium;
+        width: 80%;
+       
+ 
+ }
+   
 }
 .formic-container .form-item{
     display: flex;
     flex-direction: row;
 
-    margin: 3vh;
+    margin: 5%;
     /* justify-content: space-between; */
+    @media (max-width:700px) {
+       
+        margin: 10% 2%;
+        padding: 0 0;
+       
+ 
+ }
+
+
 }
 .formic-container .form-item i{
-    font-size: 4vh;
+   font-size: 4vh;
     margin-right: 1vw;
+    @media (max-width:700px) {
+       font-size: 20px;
+ }
+  
+    
 }
 .formic-container .input{
     border: none;
-    height: 5vh;
-    width: 35vw;
+   
     background-color: none;
     background: none;
     border-bottom: 2px solid #AAAAAA;
 
+
+
+}
+.formic-container input{
+    padding: 2% 25%;
+    @media (max-width:700px) {
+        padding: 2% 7%;
+  }
 }
 .formic-container .input:hover{
     border: none;
@@ -46,13 +84,24 @@
 }
 
 .formic-container .btn{
-    width: 7vw;
-    height: 5vh;
+   
+   padding: 2% 0.5%;
+    
     border-radius: 1vw;
     text-align: center;
     margin-left: 23vw;
     background-color: #36416A;
     color: #FFFFFF;
+
+    @media (max-width:700px) {
+       
+       margin-left: 20%;
+       padding: 3% 1%;
+       border-radius: 25px;
+
+       
+ 
+ }
 }
 
 .formic-container .error-msg{
@@ -61,3 +110,4 @@
 Link{
     color: #36416A;
 }
+

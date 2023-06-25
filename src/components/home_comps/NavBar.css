@@ -3,12 +3,22 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #36416A;
-    height: 8vh;
-    width: 100vw;
-    padding: 1vh;
+    height: 9vh;
+    /* max-width: 90%; */
+    
+    /* padding: 1%; */
+
    
     box-sizing: border-box;
     color: #ffff;
+    @media (max-width : 700px) {
+       width: 100vw;
+       /* min-width: 100%;
+    */
+       padding: 0%;
+       margin: 0;
+        
+    }
   
 }
 
@@ -25,7 +35,7 @@
 .navbar button{
     margin: 1vh;
     height: 4vh;
-    width: 6vw;
+    /* width: 6vw; */
     font-size: 2vh;
     background: none;
     font-weight: 150;
@@ -40,4 +50,25 @@
 .navbar .sign-up{
     border:  1px solid white;
 
+}
+.NVUser{
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+   
+}
+.NVUser img{
+    margin: 0 1vw;
+    margin-bottom: 2vh;
+}
+.NVUser h4{
+    @media (max-width : 700px) {
+        font-size: 10px;
+      
+        padding: 1vh ;
+        
+    }
+   
 }

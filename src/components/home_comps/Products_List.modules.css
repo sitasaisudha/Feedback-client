@@ -1,0 +1,153 @@
+.products-list{
+    display: flex;
+    flex-direction: row;
+    background-color: #E1E3E9;
+    padding: 3vh 1vw;
+    margin-top: 4vh ;
+}
+
+.products-list img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    @media (max-width:700px) {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+
+}
+
+}
+
+.products-list .right-product{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.products-list .right-product  .r-uppper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    text-align: left;
+    padding-bottom: 1vw;
+
+}
+.products-list .right-product  .r-uppper b{
+    font-size: 20px;
+   
+}
+.products-list .right-product .upvote-btn{
+    height: 6vh;
+    padding: 1vh;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #C7CBD6;;
+   
+}
+.upvote-btn i,p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.products-list .right-product  .r-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+  
+}
+.comment{
+    color:  #ABABAB;
+    display: flex;
+    justify-content: space-between;
+    
+    @media (max-width : 700px) {
+        font-size: 10px;
+       
+      }
+}
+.r-lower .left-box{
+    display: flex;
+    flex-direction: row;
+    width: 25vw;  
+    justify-content: space-between;
+}
+
+.r-lower .left-box .categories{
+    background-color: #C0CEFF;
+    padding: 1vh 2vw;
+    height: 4vh;
+    margin-right: 10px;
+    border-radius: 2vw;
+}
+.r-lower .right-box{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.r-lower .right-box .edit{
+    /* width: 5vw; */
+    border-radius: 1vw;
+    background-color: #36416A;
+    margin: 0 1vw;
+    color: white;
+    padding: 1vh;
+}
+
+i{
+    font-size: 4vh;
+}
+.scrollable-div{
+    padding: 2% 6%;
+    max-width: 65vw;
+    height: 60px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.each-comment-scrollable{
+    display: flex;
+    color: #999999;
+    font-size: 14px;
+    /* height: 10vh; */
+    width: 100%;
+   
+}
+.each-comment-scrollable span{
+  background-color: #36416A;
+  height: 15px;
+  width: 15px;
+    border-radius: 50%;
+   
+    margin-right: 3%;
+
+}
+.input_box{
+    border-radius: 3vh;
+    display: flex;
+   
+    width: 80%;
+    background-color: white;
+   
+
+}
+.edit{
+    @media (max-width : 700px) {
+        width: 40px;
+       
+      }
+}
+.input_box input{
+    width: 90%;
+    height: 100%;
+    padding: 1.5vh 0vw;
+    border-radius: 2vh;
+    background-color:white; 
+    border: none;
+}
+.input_box button{
+   background-color: white;
+   border: none;
+   color: #C7CBD6;
+}

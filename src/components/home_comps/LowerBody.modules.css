@@ -1,0 +1,142 @@
+
+.lower-body{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 30px;
+ 
+    @media (max-width : 700px) {
+     flex-direction: column; 
+   
+ }
+   
+}
+.lower-body .left-lower-body{
+
+ margin: 0vh 2vw;
+  
+    box-sizing: border-box;
+}
+.lower-body .right-lower-body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   margin-right: 3vw;
+   @media (max-width : 700px) {
+     width: 100%;
+     padding-left: 0;
+     margin-left: 0;
+        
+        
+   }
+}
+ .header-right-lower-body{
+
+    justify-content: space-between;
+    border: 2px solid #AAAAAA;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    padding: 1% 5%;
+    box-sizing: border-box;
+    @media (max-width : 700px) {
+     position: relative;
+     bottom: 17vh;
+        width: 100%;
+        padding-left: 0;
+        font-size: small;
+      }
+}
+.right-lower-body .header-right-lower-body h6{
+  margin-top: 1vh;
+   
+     font-size: 2vh;
+}
+
+.right-lower-body .header-right-lower-body input{
+    font-size: 25px;
+ 
+   
+    background-color: #36416A;
+    color: #ffffff;
+    border-radius: 6px;
+    @media (max-width : 700px) {
+      
+     
+        font-size: 12px;
+      
+    
+      }
+
+
+}
+
+.head-left-lower-body{
+    height: 20vh;
+    width: 15vw;
+    background-color: #36416A;
+    border-radius: 1vw;
+    font-size: large;
+    color: white;
+    margin: 0;
+    padding-top: 6vh;
+    box-sizing: border-box;
+  
+    font-size: 6vh;
+    margin-bottom: 4vh;
+     @media (max-width : 700px) {
+        margin-bottom: 0;
+       display: none;
+       
+}
+
+        
+        
+ 
+}
+.filters{
+   
+    width: 15vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10%;
+    border-radius: 2vh;
+  
+    justify-content: space-around;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    @media (max-width : 700px) {
+        height: 0;
+        box-shadow: none;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 100%;
+     
+       
+    }
+
+    
+}
+.filters .filter-name{
+    display: none;
+    @media (max-width : 700px) {
+       float:inline-start;
+        display: block;
+          
+       }
+}
+
+.selected{
+    padding:5%;
+    background-color: #36416A;
+  
+    border-radius: 20px; 
+}
+.not-selected{
+    padding:5%;
+    background-color: #C7CBD6;
+    border-radius: 20px; 
+}

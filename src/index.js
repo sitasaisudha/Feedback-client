@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import Empty from './pages/Empty';
+
+import Products_List from './components/home_comps/Products_List';
 
 
 
@@ -11,8 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <BrowserRouter>
     <App />
+  
     
-   {/* <Empty/> */}
+ 
  </BrowserRouter>
  
  

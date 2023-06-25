@@ -1,5 +1,6 @@
 import React from 'react';
 import './Banner.modules.css'
+// banner component
 const Banner = () => {
     return (
         <div className='container' >

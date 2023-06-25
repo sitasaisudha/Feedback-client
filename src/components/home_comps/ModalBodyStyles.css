@@ -1,3 +1,4 @@
+
 .modal{
     position: fixed;
     top: 0;
@@ -5,13 +6,14 @@
     right: 0;
     bottom: 0;
     height: auto;
+    /* width: 50%; */
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
   
-    
+   margin-bottom: 0;
 }
 
 .modal-content-left{
@@ -25,6 +27,13 @@
     box-sizing: border-box;
     color: #36416A;
     padding: 2vh;
+    @media (max-width : 700px) {
+        width: 80%;
+        height: auto;
+        
+
+        
+    }
 
 }
 
@@ -42,7 +51,28 @@
     box-sizing: border-box;
     padding: 2vh 4vh 4vh 5vh;
     text-align: left;
+    @media (max-width : 700px) {
+     display: none;
+        
+        
+    }
+}
+.modal-footer .btn{
+    background-color: #36416A;
+    padding: 2% 10%;
+    border-radius: 2vh;
+    margin-right: 55%;
+    @media (max-width : 700px) {
+    
+        margin-right: 10%;
+        padding: 2% 20%;
+        
+    }
 
+}
+.modal .formic-container{
+    /* background-color: none; */
+    background: none;
 }
 .modal-content-right h4{
     font-weight: 500;
@@ -62,15 +92,31 @@
     padding: 1vw;
 }
 
-/* .formic-item .input{
+.formic-item .input{
     border: none;
-    height: 5vh;
-    width: 25vw;
+     height: 5vh;
+    /* width: 25vw;  */
+    padding: 2% 25%;
     background-color: none;
     background: none;
     border-bottom: 2px solid #AAAAAA;
     margin: 1vh;
+    @media (max-width : 700px) {
+    
+        height: 3vh;
+        /* width: 90vh; */
+        padding: 0;
+    }
 
+}
+.formic-item input{
+    @media (max-width : 700px) {
+    
+        width:150px;
+        /* padding: 2% 12%; */
+        
+        
+    }
 }
 .formic-item .input:hover{
     border: none;
@@ -86,9 +132,21 @@
     border-bottom: 2px solid #AAAAAA;
 }
 
-.form-item .btn{
+.modal .form-item .para {
   
-} */
+    @media (max-width : 700px) {
+        font-size: smaller;
+      
+        /* background-color: red; */
+       
+        
+        
+    }
+    
+}
+
+
+
 .modal-content-left .formic-container{
     /* background-color: pink; */
     border: none;
@@ -107,6 +165,13 @@
     background: none;
     background-color: none;
     color: #36416A;
-    font-size: 3vh;
+    font-size: 2.5vh;
 
+}
+.form-button .btnn{
+    background-color: #36416A;
+    padding: 3% 3%;
+    border-radius: 2vh;
+    text-align: center;
+    color: white;
 }

@@ -1,24 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&family=Inter:wght@300;500&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
+body{
+    font-family: 'DM Sans'f;
+
+}
 .box{
-    height: 50vh;
+   
     display: flex;
     padding: 3vh 3vw;
-    background-color: pink;
+  
+    background-color: white;
+  
+    @media (max-width : 700px) {
+       flex-direction: column;
+       padding: 0;
+       height: 50vh;
+       width: 100vw;
+       margin-bottom: 0;
+     
+       
+        
+ }
 }
 .box img{
-    height: 50vh;
+    height: 40vh;
+    
+    @media (max-width : 700px) {
+       height: 55%;
+       width: 50%;
+       padding: 2% 25%;
+
+         
+         
+  }
+
 }
 .box .right-box{
-    display: flex;
-    flex-direction: column;
+   
     text-align: left;
-    /* justify-content: space-evenly; */
-    justify-content: space-around;
-    padding-left: 4vw;
+   padding-top: 7%;
+    padding-left: 15%;
     padding-right: 15vw;
+    
+
+    @media (max-width : 700px) {
+       
+ 
+          padding: 5%;
+          
+   }
    
 }
-.box .r-box1 h4{
-    font-size: 6vh;
+.right-box b{
+    font-size: 5vh;
+    @media (max-width : 700px) {
+       
+      
+        font-weight: 600;
+       font-size: 3vh;
+       padding-bottom: 0;
+        
+ }
+
+}
+.right-box p{
+    color: #6A6A6A;
+    padding-top: 3vh;
+    @media (max-width : 700px) {
+       
+     
+      padding: 2%;
+       font-size: 2vh;
+        
+ }
 }
 
 

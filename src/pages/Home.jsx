@@ -1,23 +1,19 @@
-import React, { useState } from 'react';
-import AddProduct from '../components/home_comps/AddProduct';
-import ModalBody from '../components/home_comps/ModalBody';
-import Navbar from '../components/home_comps/Navbar';
-import Body from '../components/home_comps/Body';
-import image from '../assets/prof.png';
+import React, { useState } from "react";
+import ModalBody from "../components/home_comps/ModalBody";
+import Navbar from "../components/home_comps/Navbar";
+import Body from "../components/home_comps/Body";
+import LowerBody from "../components/home_comps/LowerBody";
+// home page
 const Home = () => {
-    const [show , setShow] = useState(false);
-    
-    return (
-        <div  >
-            <Navbar/>
-            <Body/>
+  return (
+    <div>
+      <Navbar />
+      <Body />
+      <LowerBody />
 
-            <input  type='button' value='show' onClick={()=>setShow(true)} />
-            
-           
-            <ModalBody  onClose ={ ()=> setShow(false)} show = {show}   />
-        </div>
-    );
+      <ModalBody onClose={console.log("sim ")} />
+    </div>
+  );
 };
 
 export default Home;
